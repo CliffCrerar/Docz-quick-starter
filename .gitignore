@@ -1,0 +1,7 @@
+node_modules
+.docz
+.env
+_.env
+.DS_store
+**/.DS_store
+**/**/.DS_store

@@ -1,0 +1,38 @@
+{
+    "name": "docz-quick-start",
+    "version": "0.0.9-beta",
+    "description": "Preconfigured DOCZ app that is ready to be deployed and used immediatly.",
+    "main": "public/index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "docz dev",
+        "build": "docz build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CliffCrerar/Docz-quick-starter.git"
+    },
+    "keywords": [
+        "docz",
+        "mdx",
+        "react",
+        "documentation",
+        "preconfigured",
+        "deploy-now"
+    ],
+    "author": "Cliff Crerar",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CliffCrerar/Docz-quick-starter/issues"
+    },
+    "homepage": "https://github.com/CliffCrerar/Docz-quick-starter#readme",
+    "devDependencies": {
+        "docz": "^1.2.0",
+        "docz-theme-default": "^1.2.0"
+    },
+    "dependencies": {
+        "dotenv": "^8.0.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6"
+    }
+}

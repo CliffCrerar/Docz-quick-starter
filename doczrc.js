@@ -1,3 +1,7 @@
+/**
+ * DOCZ CONFIG
+ */
+
 const chLog = false
 
 const doczConfig = {
@@ -21,6 +25,5 @@ const doczConfig = {
 };
 
 chLog && console.log(process.env);
-
-export default doczConfig;
 chLog && process.exit();
+export default doczConfig;

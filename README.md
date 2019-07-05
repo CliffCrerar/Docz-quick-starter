@@ -3,7 +3,7 @@ name: Readme
 route: /readme
 ---
 
-# DOCZ quick start
+# `docz` quick start
 
 > Quickly start using docs with this preconfigured instance of docz, no need to have to ruffle through the config documents.
 
@@ -13,7 +13,7 @@ route: /readme
 
 * You are comfortable using the `node package manager` `npm` in the command line environment.
 * You have a understanding of how to use markdown.
-* (Optional) You know how to use `React`, althoug this `docz` is built to be a `.mdx` library knowing react will go a long way when using `docs` you will be able to get along without using `React`. 
+* (Optional) You know how to use `React`, altough  `docz` is built on a `.mdx` framework, knowing how to use react will help you to create more dynamic content, you will be able to use it just fine writing `mdx` only.
  
 ---
 
@@ -25,9 +25,15 @@ cd Docz-quick-starter
 npm install
 npm start
 ```
+
+
 When `npm start` is run the browser should pop open with your shiny new docz instance.
 
+See the example app [here](). 
+
 If you are wondering where the rest is, this is a documents app so the rest of your questions will be answered once you have the app running.
+
+---
 
 ## Special thanks
 

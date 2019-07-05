@@ -21,7 +21,8 @@ const doczConfig = {
     },
     files: ['./README.mdx', 'src/**/*.{md,markdown,mdx}'],
     public: '/public',
-    indexHtml: 'public/index.html'
+    indexHtml: 'public/index.html',
+    dest: '/dist'
 };
 
 chLog && console.log(process.env);

@@ -15,7 +15,7 @@ const doczConfig = {
             primary: 'tomato'
         },
         logo: {
-            src: 'https://now-static-cdn.c1i44.now.sh/svg/docz.logo.svg',
+            src: 'https://storage.googleapis.com/cdnbucket2/files/svg/docz.logo.svg',
             width: 150,
         }
     },

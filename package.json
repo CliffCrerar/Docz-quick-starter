@@ -4,7 +4,7 @@
     "description": "Preconfigured DOCZ app that is ready to be deployed and used immediatly.",
     "main": "public/index.html",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "echo \"No test specified\"",
         "start": "docz dev",
         "build": "docz build",
         "now-build": "yarn build"

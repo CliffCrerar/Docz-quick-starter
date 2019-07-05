@@ -29,7 +29,9 @@ npm start
 
 When `npm start` is run the browser should pop open with your shiny new docz instance.
 
-See the example app [here](). 
+See the example app [here](https://docz-quick-starter.c1i44.now.sh). 
+
+[`Docz` Official](https://www.docz.site/)
 
 If you are wondering where the rest is, this is a documents app so the rest of your questions will be answered once you have the app running.
 

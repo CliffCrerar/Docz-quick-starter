@@ -72,3 +72,5 @@ patch:
         patched: '2019-07-06T09:19:32.539Z'
     - docz-plugin-splash > docz-core > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
         patched: '2019-07-06T09:19:32.539Z'
+    - gh-pages > async > lodash:
+        patched: '2019-07-06T19:56:50.078Z'

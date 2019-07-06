@@ -7,3 +7,4 @@ node_modules
 dist
 .docz
 ./git-scr/*
+now.json

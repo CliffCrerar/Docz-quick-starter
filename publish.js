@@ -2,7 +2,7 @@
  * @ Author: Cliff Crerar
  * @ Create Time: 2019-07-06 13:46:42
  * @ Modified by: Your name
- * @ Modified time: 2019-07-06 20:53:08
+ * @ Modified time: 2019-07-06 21:56:14
  * @ Description: publishes package and pushes the project to master and prod build to gh-pages brach
  */
 
@@ -13,9 +13,7 @@ const path = require('path');
 const cp = require('child_process');
 const ghPages = require('gh-pages');
 const os = require('os');
-
 var gitOpsCommitMsg = 'auto-commit-on-publish';
-
 var gitOpsFile;
 
 switch (os.platform()) {
@@ -33,6 +31,7 @@ switch (os.platform()) {
 console.log('gitOpsFile: ', gitOpsFile);
 
 // Decision 
+//cp.execSync('npm', ['run', 'build']);
 cp.execSync(`${gitOpsFile} auto-commit-on-publish`);
 console.log(require('dotenv').config());
 
@@ -47,7 +46,7 @@ const publishOptions = {
 }
 console.log('publishOptions: ', publishOptions);
 
-ghPages.publish('dist', publishOptions, onDeployTrue());
+// ghPages.publish('dist', publishOptions, onDeployTrue());
 
 function onDeployTrue(err) {
     err && console.error('ERROR: ', err);

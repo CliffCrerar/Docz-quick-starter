@@ -1,7 +1,7 @@
 # `docz` quick start
 
 
-[i[GitHubissues](https://img.shields.io/github/appveyor/ci/:user/:repo.svg)]
+[GitHubissues](https://github.com/CliffCrerar/Docz-quick-starter/appveyor/ci/:user/:repo.svg)
 
 
 > Quickly start using docs with this preconfigured instance of docz, no need to have to ruffle through the config documents.

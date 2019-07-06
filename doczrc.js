@@ -4,7 +4,6 @@
 
 const chLog = false;
 import { splash } from 'docz-plugin-splash';
-
 const doczConfig = {
     title: require('./package.json').name,
     description: 'This is my awesome documentation',

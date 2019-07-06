@@ -1,6 +1,6 @@
 {
     "name": "docz-quick-start",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Preconfigured DOCZ app that is ready to be deployed and used immediately.",
     "main": "public/index.html",
     "publishConfig": {
@@ -12,7 +12,7 @@
         "build": "docz build",
         "now-build": "yarn build",
         "release": "np",
-        "version": "./ && git add docs"
+        "version": "./.docz && git add docs"
     },
     "repository": {
         "type": "git",

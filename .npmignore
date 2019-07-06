@@ -8,3 +8,5 @@ utils
 .np-config.js
 dist
 publish.js
+.snyk
+./git-scr/*

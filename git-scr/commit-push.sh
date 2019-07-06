@@ -4,5 +4,8 @@ git add --all
 echo 'commit with message' $1
 git commit -m $1
 
+echo 'pull'
+git pull
+
 echo 'push'
 git push

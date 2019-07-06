@@ -1,19 +1,18 @@
 # `docz` quick start
 
 
-[GitHubissues](https://github.com/CliffCrerar/Docz-quick-starter/appveyor/ci/:user/:repo.svg)
-
+![nor](https:/img.shields.io/static/v1.svg?label=dotenv&message=8.0.0&color=blue)
+![nor](https:/img.shields.io/static/v1.svg?label=react&message=16.8.6&color=blue)
+![nor](https:/img.shields.io/static/v1.svg?label=react-dom&message=16.8.6&color=blue)
+![GitHub issues](https://img.shields.io/github/issues/CliffCrerar/Docz-quick-starter.svg)
+![GitHub forks](https://img.shields.io/github/forks/CliffCrerar/Docz-quick-starter.svg)
+![GitHub stars](https://img.shields.io/github/stars/CliffCrerar/Docz-quick-starter.svg)
+![GitHub license](https://img.shields.io/github/license/CliffCrerar/Docz-quick-starter.svg)
+![nor](https:/img.shields.io/static/v1.svg?label=docz-plugin-splash&message=1.0.1&color=blue)   
+![GitHub issues](https://img.shields.io/github/downloads/CliffCrerar/Docz-quick-starter/total.svg)
 
 > Quickly start using docs with this preconfigured instance of docz, no need to have to ruffle through the config documents.
-
-
-
-
-
-
 ---
-
-
 
 * You are comfortable using the `node package manager` `npm` in the command line environment.
 * You have a understanding of how to use markdown.

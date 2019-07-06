@@ -6,3 +6,5 @@
 node_modules
 utils
 .np-config.js
+dist
+publish.js

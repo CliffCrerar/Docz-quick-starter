@@ -1,20 +1,19 @@
 /**
  * DOCZ CONFIG
  */
-
-const chLog = false
-import { splash } from 'docz-plugin-splash'
-
+const chLog = false;
+import { splash } from 'docz-plugin-splash';
 const doczConfig = {
     title: require('./package.json').name,
     description: 'This is my awesome documentation',
     menu: require('./src/menu'),
-    //theme: 'docz-theme-default',
+    // theme: 'docz-theme-default',
     themeConfig: {
         logo: {
             src: 'https://storage.googleapis.com/cdnbucket2/files/svg/docz.logo.svg',
             width: 150
-        } // mode: 'dark',
+        }
+        // mode: 'dark',
         // colors: {
         //     primary: 'tomato'
         // },
@@ -28,4 +27,4 @@ const doczConfig = {
 
 chLog && console.log(process.env);
 chLog && process.exit();
-//export default doczConfig;
+export default doczConfig;

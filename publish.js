@@ -2,7 +2,7 @@
  * @ Author: Cliff Crerar
  * @ Create Time: 2019-07-06 13:46:42
  * @ Modified by: Your name
- * @ Modified time: 2019-07-06 16:57:27
+ * @ Modified time: 2019-07-06 16:59:37
  * @ Description: publishes package and pushes the project to master and prod build to gh-pages brach
  */
 
@@ -34,12 +34,8 @@ publishOptions = {
 ghPages.publish('dist', publishOptions, onDeployTrue());
 
 function onDeployTrue(err) {
-
     err && console.error('ERROR: ', err);
-
     ut.log('Deploy is true');
-
-
     const cmd = cp.spawn('np', ['--dryrun'], {
         cwd: process.cwd(),
         detached: false,

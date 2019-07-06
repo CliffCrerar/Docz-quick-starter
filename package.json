@@ -1,6 +1,6 @@
 {
     "name": "docz-quick-start",
-    "version": "0.0.9-beta0",
+    "version": "0.1.0",
     "description": "Preconfigured DOCZ app that is ready to be deployed and used immediately.",
     "main": "public/index.html",
     "publishConfig": {

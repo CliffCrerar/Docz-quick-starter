@@ -1,5 +1,5 @@
 node_modules
-.docz
+.vscode
 .env
 _.env
 .DS_store

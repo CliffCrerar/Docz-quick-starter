@@ -2,4 +2,7 @@
 .docz
 .now.json
 .package-locl.json
+.gitignore
 node_modules
+utils
+.np-config.js

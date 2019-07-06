@@ -3,6 +3,7 @@
  */
 
 const chLog = false
+import { splash } from 'docz-plugin-splash'
 
 const doczConfig = {
     title: require('./package.json').name,
@@ -10,21 +11,21 @@ const doczConfig = {
     menu: require('./src/menu'),
     //theme: 'docz-theme-default',
     themeConfig: {
-        // mode: 'dark',
-        colors: {
-            primary: 'tomato'
-        },
         logo: {
             src: 'https://storage.googleapis.com/cdnbucket2/files/svg/docz.logo.svg',
-            width: 150,
-        }
+            width: 150
+        } // mode: 'dark',
+        // colors: {
+        //     primary: 'tomato'
+        // },
     },
     files: ['./README.mdx', 'src/**/*.{md,markdown,mdx}'],
     public: '/public',
     indexHtml: 'public/index.html',
-    dest: '/dist'
+    dest: '/dist',
+    plugins: [splash()]
 };
 
 chLog && console.log(process.env);
 chLog && process.exit();
-export default doczConfig;
+//export default doczConfig;

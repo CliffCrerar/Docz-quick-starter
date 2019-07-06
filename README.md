@@ -1,22 +1,22 @@
-# `docz` quick start
+# Docz quick start
 
-
-![nor](https:/img.shields.io/static/v1.svg?label=dotenv&message=8.0.0&color=blue)
-![nor](https:/img.shields.io/static/v1.svg?label=react&message=16.8.6&color=blue)
-![nor](https:/img.shields.io/static/v1.svg?label=react-dom&message=16.8.6&color=blue)
+![dotenv](https:/img.shields.io/static/v1.svg?label=dotenv&message=8.0.0&color=blue)
+![label](https:/img.shields.io/static/v1.svg?label=react&message=16.8.6&color=blue)
+![react-dom](https:/img.shields.io/static/v1.svg?label=react-dom&message=16.8.6&color=blue)
 ![GitHub issues](https://img.shields.io/github/issues/CliffCrerar/Docz-quick-starter.svg)
 ![GitHub forks](https://img.shields.io/github/forks/CliffCrerar/Docz-quick-starter.svg)
 ![GitHub stars](https://img.shields.io/github/stars/CliffCrerar/Docz-quick-starter.svg)
 ![GitHub license](https://img.shields.io/github/license/CliffCrerar/Docz-quick-starter.svg)
-![nor](https:/img.shields.io/static/v1.svg?label=docz-plugin-splash&message=1.0.1&color=blue)   
+![nor](https:/img.shields.io/static/v1.svg?label=docz-plugin-splash&message=1.0.1&color=blue)
 ![GitHub issues](https://img.shields.io/github/downloads/CliffCrerar/Docz-quick-starter/total.svg)
 
 > Quickly start using docs with this preconfigured instance of docz, no need to have to ruffle through the config documents.
+
 ---
 
-* You are comfortable using the `node package manager` `npm` in the command line environment.
+* You are comfortable using the `node package manager`  `npm` in the command line environment.
 * You have a understanding of how to use markdown.
-* *(Optional)* You know how to use `React`, altough  `docz` is built on a `.mdx` framework, knowing how to use react will help you to create more dynamic content, you will be able to use it just fine writing `mdx` only.
+* *(Optional)* You know how to use `React` , altough `docz` is built on a `.mdx` framework, knowing how to use react will help you to create more dynamic content, you will be able to use it just fine writing `mdx` only.
 
 ## Creating instance of docs
 

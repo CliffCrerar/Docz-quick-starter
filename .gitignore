@@ -1,9 +1,9 @@
 node_modules
 .vscode
 .env
-_.env
 .DS_store
 **/.DS_store
 **/**/.DS_store
 dist
 .docz
+./git-scr/*

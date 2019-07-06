@@ -10,3 +10,4 @@ dist
 publish.js
 .snyk
 ./git-scr/*
+now.json

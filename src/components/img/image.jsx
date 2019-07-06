@@ -19,7 +19,6 @@ function Image ( props ) {
                     height: 100%;
                     width: auto;
                 }
-                
             `}</style>
             <img className="img-temp" src={props.src} alt="docz-rocket-svg" />
         </div>

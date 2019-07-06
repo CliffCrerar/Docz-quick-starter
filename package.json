@@ -1,6 +1,6 @@
 {
   "name": "docz-quick-start",
-  "version": "0.0.9-beta0",
+  "version": "1.1.2",
   "description": "Preconfigured DOCZ app that is ready to be deployed and used immediately.",
   "main": "public/index.html",
   "publishConfig": {
@@ -11,8 +11,8 @@
     "start": "docz dev",
     "build": "docz build",
     "now-build": "yarn build",
-    "release": "np",
-    "version": "./.docz && git add docs",
+    "deploy": "np",
+    "release": "node publish.js",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
   },
@@ -47,6 +47,7 @@
   "dependencies": {
     "docz-plugin-splash": "^1.0.1",
     "dotenv": "^8.0.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "snyk": "^1.192.3"

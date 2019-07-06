@@ -5,4 +5,3 @@ _.env
 .DS_store
 **/.DS_store
 **/**/.DS_store
-dist

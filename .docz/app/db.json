@@ -1,0 +1,153 @@
+{
+  "config": {
+    "title": "docz-quick-start",
+    "description": "This is my awesome documentation",
+    "menu": [
+      "Landing",
+      "Some how to`s",
+      "Page Z",
+      "Page A",
+      "Readme"
+    ],
+    "version": "0.0.9-beta0",
+    "repository": "https://github.com/CliffCrerar/Docz-quick-starter",
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {
+      "logo": {
+        "src": "https://storage.googleapis.com/cdnbucket2/files/svg/docz.logo.svg",
+        "width": 150
+      }
+    },
+    "separator": "-",
+    "files": [
+      "./README.mdx",
+      "src/**/*.{md,markdown,mdx}"
+    ],
+    "public": "/public",
+    "indexHtml": "public/index.html",
+    "dest": "/dist",
+    "plugins": [
+      {}
+    ]
+  },
+  "props": [],
+  "entries": [
+    {
+      "key": "src/pages/howto.mdx",
+      "value": {
+        "name": "Some how to`s",
+        "route": "/howto",
+        "id": "0dd27f82eec24d493e030c75e19a1299",
+        "filepath": "src/pages/howto.mdx",
+        "link": "https://github.com/CliffCrerar/Docz-quick-starter/edit/master/src/pages/howto.mdx",
+        "slug": "src-pages-howto",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "some-how-tos",
+            "depth": 1,
+            "value": "Some how to`s"
+          },
+          {
+            "slug": "detailed-config-docs",
+            "depth": 2,
+            "value": "Detailed config docs"
+          },
+          {
+            "slug": "adding-pages",
+            "depth": 2,
+            "value": "Adding pages"
+          },
+          {
+            "slug": "ordering-pages",
+            "depth": 2,
+            "value": "Ordering pages"
+          },
+          {
+            "slug": "colors-and-theming",
+            "depth": 2,
+            "value": "Colors and Theming"
+          },
+          {
+            "slug": "warning-this-will-not-give-you-errors-in-the-build-nor-in-the-web-console-if-you-miss-a-comma-or-somehow-misconfigure-it-be-cautious",
+            "depth": 3,
+            "value": "WARNING:  This will not give you errors in the build nor in the web console if you miss a comma or somehow misconfigure it.  Be cautious."
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/index.mdx",
+      "value": {
+        "name": "Landing",
+        "route": "/",
+        "id": "522b7407e210088f3588b943aec44115",
+        "filepath": "src/pages/index.mdx",
+        "link": "https://github.com/CliffCrerar/Docz-quick-starter/edit/master/src/pages/index.mdx",
+        "slug": "src-pages-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "docz-quick-starter",
+            "depth": 1,
+            "value": "Docz quick starter"
+          },
+          {
+            "slug": "create-great-document-resources-in-no-time-",
+            "depth": 2,
+            "value": "Create great document resources in no time !"
+          },
+          {
+            "slug": "official-site",
+            "depth": 3,
+            "value": "Official site"
+          },
+          {
+            "slug": "release-notes",
+            "depth": 3,
+            "value": "Release notes:"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/page1.mdx",
+      "value": {
+        "name": "Page Z",
+        "route": "/page1",
+        "id": "cd857a3cf38a3839c45c4d741b29de40",
+        "filepath": "src/pages/page1.mdx",
+        "link": "https://github.com/CliffCrerar/Docz-quick-starter/edit/master/src/pages/page1.mdx",
+        "slug": "src-pages-page1",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "page-one",
+            "depth": 1,
+            "value": "Page One"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/pages/page2.mdx",
+      "value": {
+        "name": "Page A",
+        "route": "/page2",
+        "id": "967d225ce539f4385ef4a0b79e1e3caf",
+        "filepath": "src/pages/page2.mdx",
+        "link": "https://github.com/CliffCrerar/Docz-quick-starter/edit/master/src/pages/page2.mdx",
+        "slug": "src-pages-page2",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "page-two",
+            "depth": 1,
+            "value": "Page Two"
+          }
+        ]
+      }
+    }
+  ]
+}

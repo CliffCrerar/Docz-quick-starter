@@ -12,10 +12,6 @@
 ![GitHub issues](https://img.shields.io/github/downloads/CliffCrerar/Docz-quick-starter/total.svg)
 
 > Quickly start using docs with this preconfigured instance of docz, no need to have to ruffle through the config documents.
-
-
-
-
 ---
 
 * You are comfortable using the `node package manager` `npm` in the command line environment.

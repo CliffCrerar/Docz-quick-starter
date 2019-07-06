@@ -1,15 +1,19 @@
----
-name: Readme
-route: /readme
----
-
 # `docz` quick start
+
+
+[i[GitHubissues](https://img.shields.io/github/appveyor/ci/:user/:repo.svg)]
+
 
 > Quickly start using docs with this preconfigured instance of docz, no need to have to ruffle through the config documents.
 
+
+
+
+
+
 ---
 
-## User assumptions
+
 
 * You are comfortable using the `node package manager` `npm` in the command line environment.
 * You have a understanding of how to use markdown.

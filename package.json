@@ -10,7 +10,7 @@
         "test": "echo \"No test specified\"",
         "start": "docz dev",
         "build": "docz build",
-        "now-build": "yarn build",
+        "now-build": "docz build",
         "deploy": "np",
         "release": "node publish.js",
         "snyk-protect": "snyk protect",

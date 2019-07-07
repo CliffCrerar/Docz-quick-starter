@@ -10,7 +10,7 @@ const doczConfig = {
     // theme: 'docz-theme-default',
     themeConfig: {
         logo: {
-            src: 'https://storage.googleapis.com/cdnbucket2/files/svg/docz.logo.svg',
+            src: 'https://cdn-docz-quick-starter.c1i44.now.sh/docz.logo.svg',
             width: 150
         }
         // mode: 'dark',
@@ -19,7 +19,7 @@ const doczConfig = {
         // },
     },
     files: ['./README.mdx', 'src/**/*.{md,markdown,mdx}'],
-    public: '/public',
+    public: 'public',
     indexHtml: 'public/index.html',
     dest: '/dist',
     plugins: [splash()]

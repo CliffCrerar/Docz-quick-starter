@@ -2,7 +2,7 @@
  * @ Author: Cliff Crerar
  * @ Create Time: 2019-07-06 13:46:42
  * @ Modified by: Your name
- * @ Modified time: 2019-07-07 15:59:58
+ * @ Modified time: 2019-07-07 16:01:12
  * @ Description: publishes package and pushes the project to master and prod build to gh-pages brach
  */
 

@@ -9,7 +9,8 @@
     "scripts": {
         "test": "echo \"No test specified\"",
         "start": "docz dev",
-        "build": "docz build"
+        "build": "docz build",
+        "now-build": "yarn run build"
     },
     "repository": {
         "type": "git",

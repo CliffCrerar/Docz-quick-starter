@@ -1,7 +1,5 @@
 # Docz quick start
 
-## !!! UNDERGOING MAINTENANCE !!!
-
 ![GitHub issues](https://img.shields.io/github/issues/CliffCrerar/Docz-quick-starter.svg)
 ![GitHub forks](https://img.shields.io/github/forks/CliffCrerar/Docz-quick-starter.svg)
 ![GitHub stars](https://img.shields.io/github/stars/CliffCrerar/Docz-quick-starter.svg)

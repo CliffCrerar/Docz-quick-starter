@@ -1,5 +1,5 @@
-sudo rm -rd ./docz
-sudo rm -rd /dist
+sudo rm -rd .docz
+sudo rm -rd dist
 
 echo add-all
 git add --all

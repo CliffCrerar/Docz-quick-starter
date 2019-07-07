@@ -2,7 +2,7 @@
  * @ Author: Cliff Crerar
  * @ Create Time: 2019-07-06 13:46:42
  * @ Modified by: Your name
- * @ Modified time: 2019-07-07 16:16:03
+ * @ Modified time: 2019-07-07 16:16:22
  * @ Description: publishes package and pushes the project to master and prod build to gh-pages brach
  */
 
@@ -49,13 +49,13 @@ console.log('publishOptions: ', publishOptions);
 function onDeployTrue(err) {
     err && console.error('ERROR: ', err);
     ut.log('Deploy is true');
-    // const cmd = cp.spawn('np', {
-    //     cwd: process.cwd(),
-    //     detached: false,
-    //     stdio: 'inherit'
-    // });
-    // console.log('cmd: ', cmd);
-    // return cmd;
+    const cmd = cp.spawn('np', {
+        cwd: process.cwd(),
+        detached: false,
+        stdio: 'inherit'
+    });
+    console.log('cmd: ', cmd);
+    return cmd;
 }
 
 onDeployTrue()

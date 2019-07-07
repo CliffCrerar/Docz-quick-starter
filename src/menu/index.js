@@ -1,6 +1,6 @@
 module.exports = [
     'Landing',
-    'Some how to`s',
+    'How to',
     'Page Z',
     'Page A'
 ]

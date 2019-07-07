@@ -2,7 +2,7 @@
  * @ Author: Cliff Crerar
  * @ Create Time: 2019-07-06 13:46:42
  * @ Modified by: Your name
- * @ Modified time: 2019-07-07 16:01:12
+ * @ Modified time: 2019-07-07 16:07:26
  * @ Description: publishes package and pushes the project to master and prod build to gh-pages brach
  */
 
@@ -21,7 +21,7 @@ switch (os.platform()) {
         gitOpsFile = path.join(__dirname, 'git-scr/os-commit-push.sh');
         break;
     case 'linux??':
-        gitOpsFile = path.join(__dirname, `git-scr/<filename for linus>`); // error
+        gitOpsFile = path.join(__dirname, `git-scr/<filename for linux>`); // error
         break;
     case 'win32??':
         gitOpsFile = path.join(__dirname, `git-scr/<filename for windows>`); // error
@@ -40,8 +40,8 @@ const publishOptions = {
     remote: 'upstream',
     message: 'Auto-generated commit',
     user: {
-        name: require('dotenv').config().DOCZ_GITUSERNAME,
-        email: require('dotenv').config().DOCZ_GITUSEREMAIL
+        name: process.env.DOCZ_GITUSERNAME,
+        email: process.env.DOCZ_GITUSEREMAIL
     }
 }
 console.log('publishOptions: ', publishOptions);

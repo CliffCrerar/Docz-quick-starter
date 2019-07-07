@@ -2,7 +2,7 @@
  * @ Author: Cliff Crerar
  * @ Create Time: 2019-07-06 13:46:42
  * @ Modified by: Your name
- * @ Modified time: 2019-07-07 16:07:26
+ * @ Modified time: 2019-07-07 16:16:03
  * @ Description: publishes package and pushes the project to master and prod build to gh-pages brach
  */
 
@@ -58,4 +58,6 @@ function onDeployTrue(err) {
     // return cmd;
 }
 
-ghPages.publish('dist', publishOptions, onDeployTrue());
+onDeployTrue()
+
+//ghPages.publish('dist', publishOptions, onDeployTrue());

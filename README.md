@@ -5,6 +5,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/CliffCrerar/Docz-quick-starter.svg)
 ![GitHub license](https://img.shields.io/github/license/CliffCrerar/Docz-quick-starter.svg)
 ![GitHub downloads](https://img.shields.io/github/downloads/CliffCrerar/Docz-quick-starter/total.svg)
+[![Known Vulnerabilities](https://snyk.io//test/github/CliffCrerar/Docz-quick-starter/badge.svg?targetFile=package.json)](https://snyk.io//test/github/CliffCrerar/Docz-quick-starter?targetFile=package.json)
 
 > Quickly start using docs with this preconfigured instance of docz, no need to have to ruffle through the config documents.
 

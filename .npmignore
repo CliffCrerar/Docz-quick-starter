@@ -1,0 +1,13 @@
+.vscode
+.docz
+.now.json
+.package-lock.json
+.gitignore
+node_modules
+utils
+.np-config.js
+dist
+publish.js
+.snyk
+./git-scr/*
+now.json

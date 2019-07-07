@@ -3,15 +3,15 @@
  */
 const chLog = false;
 const doczConfig = {
-    title: 'Docks Quick Starter'
+    title: 'Docks Quick Starter',
     description: 'This is my awesome documentation',
     menu: [
-            'Landing',
-            'How to',
-            'Page Z',
-            'Page A'
-        ]
-        // theme: 'docz-theme-default',
+        'Landing',
+        'How to',
+        'Page Z',
+        'Page A'
+    ],
+    // theme: 'docz-theme-default',
     themeConfig: {
         logo: {
             src: 'https://cdn-docz-quick-starter.c1i44.now.sh/docz.logo.svg',
@@ -25,7 +25,7 @@ const doczConfig = {
     files: ['./README.mdx', 'src/**/*.{md,markdown,mdx}'],
     public: 'public',
     indexHtml: 'index.html',
-    dest: '/docs'
+    dest: '/dist'
 };
 
 export default doczConfig;

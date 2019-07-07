@@ -2,7 +2,6 @@
  * DOCZ CONFIG
  */
 const chLog = false;
-import { splash } from 'docz-plugin-splash';
 const doczConfig = {
     title: 'Docks Quick Starter'
     description: 'This is my awesome documentation',
@@ -25,11 +24,8 @@ const doczConfig = {
     },
     files: ['./README.mdx', 'src/**/*.{md,markdown,mdx}'],
     public: 'public',
-    indexHtml: './public/index.html',
-    dest: '/dist',
-    plugins: [splash()]
+    indexHtml: 'index.html',
+    dest: '/docs'
 };
 
-chLog && console.log(process.env);
-chLog && process.exit();
 export default doczConfig;

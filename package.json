@@ -40,6 +40,7 @@
     "homepage": "https://github.com/CliffCrerar/Docz-quick-starter#readme",
     "devDependencies": {
         "docz": "^1.2.0",
-        "docz-theme-default": "^1.2.0"
+        "docz-theme-default": "^1.2.0",
+        "gh-pages": "^2.0.1"
     }
 }

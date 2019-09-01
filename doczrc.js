@@ -14,7 +14,7 @@ const doczConfig = {
     // theme: 'docz-theme-default',
     themeConfig: {
         logo: {
-            src: 'https://cdn-docz-quick-starter.c1i44.now.sh/docz.logo.svg',
+            src: 'https://cdn-cloudflare.ga/assets/site-logo/docz/docz.logo.svg',
             width: 150
         }
         // mode: 'dark',
